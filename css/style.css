@@ -1,0 +1,366 @@
+body {
+	font-family: "Gotham Pro", sans-serif;
+	padding: 0;
+	background: url("../files/bg-arbat.jpg") no-repeat;
+	background-color: #666;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+}
+
+header {
+	background: url(../img/presentable.jpg) no-repeat center center;
+	width: 70vw;
+	height: 600px;
+	min-width: 700px;
+	margin: 0 auto;
+	border: 5px solid rgba(256,50,256,.4);
+}
+
+footer {
+	width: 70vw;
+	height: 50px;
+	min-width: 700px;
+	margin: 0 auto;
+	border: 5px solid rgba(100,100,100,.4);
+	background-color: rgba(50,40,50,.8);
+
+}
+
+footer p {
+	float: left;
+	color: rgba(250,250,250,.7);
+	margin-left: 20px;
+	border: 2px dashed rgba(100,100,100,.4);
+	margin: 10px;
+}
+
+.copyright {
+	text-align: right;
+	float: right;
+	margin-right: 40px;
+	color: rgba(250,250,250,.7);
+	border: none;
+}
+
+.button {
+	position: fixed;
+	left: 15px;
+	top: 60px;
+	width: 150px;
+	height: 36px;
+	border-radius: 35px;
+	font-size: 24px;
+	text-align: center;
+	background-color: rgba(10,230,200,.8);
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+a {
+	color: rgb(230,230,100);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(130,230,100);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(230,230,100);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(230,230,0);
+	text-decoration: none;
+}
+
+h1 {
+	margin-top: 400px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	background-color: rgba(200,50,200,.7);
+	color: rgba(250,240,250,.8);
+	font-size: 50px;
+}
+
+
+#socials {
+	background-color: rgba(245,256,245,.7);
+	border: 5px solid rgba(50,256,150,.3);
+}
+
+#socials a {
+	color: #33f;
+}
+
+main {
+	width: 65vw;
+	min-width: 700px;
+	margin: 0 auto;
+	background: url("../files/pattern.jpg") repeat;
+	background-size: 300px;
+}
+
+main h2 {
+	font-size: 72px;
+	margin-left: 48px;
+}
+
+#bottom {
+	background-color: #555;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 40px;
+
+}
+
+footer span {
+	margin: auto;
+	color: #666;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0;
+	background-color: 
+	background-color: rgba(200,150,200,.7);
+}
+h3 {
+	font-size: 38px;
+	margin: 15px;
+	margin-top: 35px;
+}
+
+
+section {
+	padding: 15px;
+	padding-left: 50px;
+}
+
+.card {
+	height: 350px;
+	border: 3px solid rgba(50,100,50,.5);
+	margin-top: -3px;
+	vertical-align: middle;
+	padding: auto;
+	background-color: rgba(169,196,225,.8);
+}
+
+.card p {
+	max-width: 300px;
+	height: 300px;
+	display: inline;
+}
+
+.card img {
+	width: 300px;
+	height: 300px;
+	border: 5px solid lightblue;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 20px;
+	object-fit: contain;
+	animation: rotato 5s infinite linear;
+}
+
+.card img:hover{
+}
+
+.right-block, .left-block {
+	display: inline-block;
+	height: 100%;
+	width: 49%;
+	vertical-align: top;
+}
+
+.left-block {
+	text-align: left;
+}
+
+.right-block {
+	text-align: right;
+}
+
+.text {
+	background-color: rgba(255,255,255,.4)
+}
+
+.right-block, .left-block h3 {
+	text-align: center;
+}
+
+.left-block, .right-block p{
+	text-align: center;
+	font-size: 32;
+}
+
+#bio {
+	padding-left: 15px;
+}
+
+figure {
+	display: inline-block;
+	border: 3px dotted blue;
+	margin: auto;
+	width: 20%;
+	text-align: center;
+	background-color: rgba(230,230,250,.7);
+	padding: 10px;
+	margin-top: 20px;
+}
+
+figcaption {
+	font-size: 16px;
+	margin-top: 20px;
+	color: #33f;
+	font-style: black;
+}
+
+figure img {
+	width: 80%;
+}
+figure img:hover{
+	animation: rotato 1s;
+}
+
+#services {
+	background-color: rgba(256,240,240,.7);
+	border: 5px solid rgba(256,100,100,.4);
+}
+
+#services img {
+	height: 162px;
+	width: 286px;
+	background-size: contain;
+}
+
+#services .left-block {
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: left;
+	background-color: rgba(250,250,250,.6);
+	text-align: center;
+}
+
+#services dt {
+	font-size: 36px;
+	margin-left: 200px;
+	margin-top: 15px;
+}
+
+#services dd {
+	margin: 0;
+}
+
+#pricelist {
+	font-style: bold;
+	background-color: rgba(240,240,256,.7);
+}
+
+#pricelist dt {
+	font-size: 48px;
+	margin-top: 15px;
+}
+
+#pricelist dd {
+	font-size: 36px;
+	margin: auto;
+	text-align: center;
+}
+
+#pricelist dd:hover {
+	position: relative;
+	animation: importantText 3s;
+}
+
+@keyframes importantText {
+	from, to {
+		color: red;
+	}
+	90% {
+		font-size: 8vw;
+	}
+}
+
+.comment {
+	margin: 0;
+	text-shadow: 6px;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.0);
+	width: 70vw;
+	min-width: 700px;
+	margin: auto;
+}
+
+
+.motion {
+	text-transform: lowercase;
+	color: #fff;
+	background-color: red;
+	padding: 10px;
+	margin: 0px;
+	margin-left: 50px;
+	animation: runtorignt 5s infinite ease-out;
+}
+
+.button:hover {
+	animation: nabun .1s infinite ease-in-out;
+}
+
+@keyframes runtorignt {
+	from, to {
+		margin-left: 76%;
+	}
+	50% {
+		margin-left: 6%;
+	}
+}
+
+@keyframes rotato {
+	100% {
+		transform: rotateZ(359deg);
+	}
+}
+
+@keyframes nabun {
+	50% {
+		transform: rotateZ(-5deg);
+	}
+	99% {
+		transform: rotateZ(5deg);
+	}
+}
+
+#bio h2 {
+	left: -100px;
+}
+
+#bio h2 span {
+	font-size: 72px;
+	margin-left: 0;
+}
+
+#bio h2 span:hover {
+	animation: ghostix 3s ease-in-out;
+}
+
+@keyframes ghostix {
+	20% {
+		color: rgba(0,0,0,.4);
+	}
+	30% {
+		color: rgba(0,0,0,.3);
+	}
+	80% {
+		color: rgba(0,0,0,.7);
+	}
+	100% {
+		color: rgba(0,0,0,.0);
+	}
+}
